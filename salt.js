@@ -33,6 +33,18 @@ let password = 'user_password'
 const resultlogin = login(email, password)
 const resultsignup = signup(email, password, users)
 
+
+console.log('                          ')
+console.log(`                          
+    ░██████╗░█████╗░██╗░░░░░████████╗
+    ██╔════╝██╔══██╗██║░░░░░╚══██╔══╝
+    ╚█████╗░███████║██║░░░░░░░░██║░░░
+    ░╚═══██╗██╔══██║██║░░░░░░░░██║░░░
+    ██████╔╝██║░░██║███████╗░░░██║░░░
+    ╚═════╝░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░
+                                       `)
+console.log('                          ')
+
 console.log(resultsignup)
 console.log(resultlogin)
 

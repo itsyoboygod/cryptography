@@ -15,6 +15,17 @@ verifier.update(message)
 
 const isVerified = verifier.verify(publicKey, signature, 'hex')
 
+console.log('                          ')
+console.log(`                           
+    ░██████╗██╗░██████╗░███╗░░██╗
+    ██╔════╝██║██╔════╝░████╗░██║
+    ╚█████╗░██║██║░░██╗░██╔██╗██║
+    ░╚═══██╗██║██║░░╚██╗██║╚████║
+    ██████╔╝██║╚██████╔╝██║░╚███║
+    ╚═════╝░╚═╝░╚═════╝░╚═╝░░╚══╝                   
+                                       `)
+console.log('                          ')
+
 console.log('Is Verified?: ', isVerified)
 console.log('Message: ', message)
 console.log('Signature: ', signature)
